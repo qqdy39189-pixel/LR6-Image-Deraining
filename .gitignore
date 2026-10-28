@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training logs
+runs/
+logs/
+wandb/
+
+# Model weights (keep local; do not upload by default)
+*.pth
+*.pt
+*.pth.tar
+*.ckpt
+
+# Generated evaluation images
+evaluation_images_*/
+
+# Temporary files
+*.tmp
+*.log
+# Dataset
+data/
+
+# Training checkpoints
+checkpoints/
+
+# Local Python environment and editor settings
+.venv/
+.vscode/
+__pycache__/
