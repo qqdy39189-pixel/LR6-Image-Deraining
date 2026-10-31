@@ -57,7 +57,7 @@ class DerainNet(nn.Module):
         # 输入卷积，得到 C 通道特征
         features = self.relu(self.conv_in(x))
 
-        # 分支 1：原图大小（不下采样、不上采样）
+        # 分支 1：原图大小
         branch1 = self._run_branch(self.branch1_blocks, features)
 
         # 分支 2：1/2 大小处理后，上采样回原尺寸

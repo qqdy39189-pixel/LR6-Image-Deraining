@@ -2,7 +2,6 @@
 # 用法（在 E:\LR6 根目录、激活 venv 后）：
 #     python count_params.py
 # 要求：本文件放在 E:\LR6 根目录，和 main.py 同一级，
-#       这样 from models.my_model import Mymodel 才能找到模型。
 
 import torch
 from models.my_model import Mymodel
